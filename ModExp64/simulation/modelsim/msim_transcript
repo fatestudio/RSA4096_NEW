@@ -1,0 +1,240 @@
+# Reading D:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ModExp_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/ms\ project/!Clean\ Folder/ModExp64 {E:/ms project/!Clean Folder/ModExp64/_parameter.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# vlog -vlog01compat -work work +incdir+E:/ms\ project/!Clean\ Folder/ModExp64 {E:/ms project/!Clean Folder/ModExp64/MulAdd.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MulAdd
+# 
+# Top level modules:
+# 	MulAdd
+# vlog -vlog01compat -work work +incdir+E:/ms\ project/!Clean\ Folder/ModExp64 {E:/ms project/!Clean Folder/ModExp64/MonPro.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MonPro
+# 
+# Top level modules:
+# 	MonPro
+# vlog -vlog01compat -work work +incdir+E:/ms\ project/!Clean\ Folder/ModExp64 {E:/ms project/!Clean Folder/ModExp64/ModExp.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp
+# 
+# Top level modules:
+# 	ModExp
+# 
+do ModExpSimulation.tcl
+# work.ModExp_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# ** Warning: ModExp_tb.v(101): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# ** Warning: ModExp_tb.v(102): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# 
+# Top level modules:
+# 	ModExp_tb
+# vsim -L altera_mf_ver -L lpm_ver -L cycloneiii_ver -L cycloneii_ver work.ModExp_tb 
+# Loading work.ModExp_tb
+# Loading work.ModExp
+# Loading work.MonPro
+# Loading work.MulAdd
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: fatestudio  Hostname: TOSHIBA-PC  ProcessID: 40196
+# 
+#           Attempting to use alternate WLF file "./wlft0matg9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft0matg9
+# 
+# d_in[         63][         62] = 1
+# k_d1:          63, k_d2:          62
+# k_d1:          63, k_d2:          62
+# k_d1:          63, k_d2:          61
+# k_d1:          63, k_d2:          61
+# k_d1:          63, k_d2:          60
+# k_d1:          63, k_d2:          60
+# k_d1:          63, k_d2:          59
+# k_d1:          63, k_d2:          59
+# k_d1:          63, k_d2:          58
+vlog -O0 {E:/ms project/!Clean Folder/ModExp64/simulation/modelsim/ModExp_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# ** Warning: E:/ms project/!Clean Folder/ModExp64/simulation/modelsim/ModExp_tb.v(101): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# ** Warning: E:/ms project/!Clean Folder/ModExp64/simulation/modelsim/ModExp_tb.v(102): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# 
+# Top level modules:
+# 	ModExp_tb
+do ModExpSimulation.tcl
+# work.ModExp_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# ** Warning: ModExp_tb.v(101): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# ** Warning: ModExp_tb.v(102): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# 
+# Top level modules:
+# 	ModExp_tb
+# vsim -L altera_mf_ver -L lpm_ver -L cycloneiii_ver -L cycloneii_ver work.ModExp_tb 
+# Loading work.ModExp_tb
+# Loading work.ModExp
+# Loading work.MonPro
+# Loading work.MulAdd
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: fatestudio  Hostname: TOSHIBA-PC  ProcessID: 40196
+# 
+#           Attempting to use alternate WLF file "./wlftgt2dwv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftgt2dwv
+# 
+# d_in[         63][         62] = 1
+# k_d1:          63, k_d2:          62
+# k_d1:          63, k_d2:          62
+# k_d1:          63, k_d2:          61
+# k_d1:          63, k_d2:          61
+vlog -O0 {E:/ms project/!Clean Folder/ModExp64/simulation/modelsim/ModExp_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# ** Warning: E:/ms project/!Clean Folder/ModExp64/simulation/modelsim/ModExp_tb.v(102): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# ** Warning: E:/ms project/!Clean Folder/ModExp64/simulation/modelsim/ModExp_tb.v(103): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# 
+# Top level modules:
+# 	ModExp_tb
+do ModExpSimulation.tcl
+# work.ModExp_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# ** Warning: ModExp_tb.v(102): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# ** Warning: ModExp_tb.v(103): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# 
+# Top level modules:
+# 	ModExp_tb
+# vsim -L altera_mf_ver -L lpm_ver -L cycloneiii_ver -L cycloneii_ver work.ModExp_tb 
+# Loading work.ModExp_tb
+# Loading work.ModExp
+# Loading work.MonPro
+# Loading work.MulAdd
+# ** Error: (vsim-3043) ModExp_tb.v(28): Unresolved reference to 'display'.
+# 
+#         Region: /ModExp_tb
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./ModExpSimulation.tcl PAUSED at line 8
+vlog -O0 {E:/ms project/!Clean Folder/ModExp64/simulation/modelsim/ModExp_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# ** Warning: E:/ms project/!Clean Folder/ModExp64/simulation/modelsim/ModExp_tb.v(102): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# ** Warning: E:/ms project/!Clean Folder/ModExp64/simulation/modelsim/ModExp_tb.v(103): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# 
+# Top level modules:
+# 	ModExp_tb
+do ModExpSimulation.tcl
+# work.ModExp_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# ** Warning: ModExp_tb.v(102): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# ** Warning: ModExp_tb.v(103): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# 
+# Top level modules:
+# 	ModExp_tb
+# vsim -L altera_mf_ver -L lpm_ver -L cycloneiii_ver -L cycloneii_ver work.ModExp_tb 
+# Loading work.ModExp_tb
+# Loading work.ModExp
+# Loading work.MonPro
+# Loading work.MulAdd
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: fatestudio  Hostname: TOSHIBA-PC  ProcessID: 40196
+# 
+#           Attempting to use alternate WLF file "./wlftyzifq3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftyzifq3
+# 
+# 322d1d34c8803b31
+# 322d1d34c8803b31
+# 
+# d_in[         63][         62] = 1
+# k_d1:          63, k_d2:          62
+# k_d1:          63, k_d2:          62
+# k_d1:          63, k_d2:          61
+# k_d1:          63, k_d2:          61
+vlog -O0 {E:/ms project/!Clean Folder/ModExp64/simulation/modelsim/ModExp_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# ** Warning: E:/ms project/!Clean Folder/ModExp64/simulation/modelsim/ModExp_tb.v(102): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# ** Warning: E:/ms project/!Clean Folder/ModExp64/simulation/modelsim/ModExp_tb.v(103): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# 
+# Top level modules:
+# 	ModExp_tb
+do ModExpSimulation.tcl
+# work.ModExp_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# ** Warning: ModExp_tb.v(102): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# ** Warning: ModExp_tb.v(103): (vlog-2597) '4294967295' is being treated as 32-bit signed integer and will overflow.
+# 
+# 
+# Top level modules:
+# 	ModExp_tb
+# vsim -L altera_mf_ver -L lpm_ver -L cycloneiii_ver -L cycloneii_ver work.ModExp_tb 
+# Loading work.ModExp_tb
+# Loading work.ModExp
+# Loading work.MonPro
+# Loading work.MulAdd
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: fatestudio  Hostname: TOSHIBA-PC  ProcessID: 40196
+# 
+#           Attempting to use alternate WLF file "./wlftfhzi71".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftfhzi71
+# 
+# outp[          0]: 322d1d34c8803b31
+# outp[          1]: 322d1d34c8803b31
+# d_in[         63][         62] = 1
+# k_d1:          63, k_d2:          62
+# k_d1:          63, k_d2:          62
+# k_d1:          63, k_d2:          61
