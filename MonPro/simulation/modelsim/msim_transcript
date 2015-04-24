@@ -1,0 +1,59 @@
+# Reading D:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do MonPro_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/ms\ project/!Clean\ Folder/MonPro {E:/ms project/!Clean Folder/MonPro/_parameter.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# vlog -vlog01compat -work work +incdir+E:/ms\ project/!Clean\ Folder/MonPro {E:/ms project/!Clean Folder/MonPro/MulAdd.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MulAdd
+# 
+# Top level modules:
+# 	MulAdd
+# vlog -vlog01compat -work work +incdir+E:/ms\ project/!Clean\ Folder/MonPro {E:/ms project/!Clean Folder/MonPro/MonPro.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MonPro
+# 
+# Top level modules:
+# 	MonPro
+# 
+# do "E:/ms project/!Clean Folder/MonPro/MonProSimulation.tcl"
+# set top_level	work.MonPro_tb
+# work.MonPro_tb
+# 
+# set wave_radices {
+# 	hexadecimal {data -r *}
+# }
+# 
+# 	hexadecimal {data -r *}
+# 
+# 
+# vlog MonPro_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MonPro_tb
+# 
+# Top level modules:
+# 	MonPro_tb
+# vsim -L altera_mf_ver -L lpm_ver -L cycloneiii_ver -L cycloneii_ver work.MonPro_tb
+# vsim -L altera_mf_ver -L lpm_ver -L cycloneiii_ver -L cycloneii_ver work.MonPro_tb 
+# Loading work.MonPro_tb
+# Loading work.MonPro
+# Loading work.MulAdd
+# add wave -hex /MonPro_tb/state
+# add wave -hex -internal /MonPro_tb/MonPro0/x
+# add wave -hex -internal /MonPro_tb/MonPro0/y
+# add wave -hex -internal /MonPro_tb/MonPro0/v
+# add wave -hex -internal /MonPro_tb/MonPro0/n
+# add wave -hex -internal /MonPro_tb/MonPro0/*
+# 
+# run 70000
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1 of file "nprime0.txt". (Current address [1], address range [0])    : E:/ms project/!Clean Folder/MonPro/MonPro.v(30)
+#    Time: 0 ps  Iteration: 0  Instance: /MonPro_tb/MonPro0

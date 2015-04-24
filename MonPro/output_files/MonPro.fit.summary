@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Apr 20 16:14:45 2015
+Quartus II 64-Bit Version : 12.1 Build 243 01/31/2013 SP 1 SJ Web Edition
+Revision Name : MonPro
+Top-level Entity Name : MonPro
+Family : Cyclone II
+Device : EP2C50F484C6
+Timing Models : Final
+Total logic elements : 23,854 / 50,528 ( 47 % )
+    Total combinational functions : 16,750 / 50,528 ( 33 % )
+    Dedicated logic registers : 13,509 / 50,528 ( 27 % )
+Total registers : 13509
+Total pins : 264 / 294 ( 90 % )
+Total virtual pins : 0
+Total memory bits : 0 / 594,432 ( 0 % )
+Embedded Multiplier 9-bit elements : 127 / 172 ( 74 % )
+Total PLLs : 0 / 4 ( 0 % )
