@@ -1,0 +1,88 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\ms project\!Clean Folder\ModExp\simulation\modelsim
+vModExp
+Z1 I]mMg2QcbDmUIKV7HHKAJO3
+Z2 V4>981oC?1TVdHoJ<YToQe3
+Z3 dE:\ms project\!Clean Folder\ModExp\simulation\modelsim
+Z4 w1429634158
+Z5 8E:/ms project/!Clean Folder/ModExp/ModExp.v
+Z6 FE:/ms project/!Clean Folder/ModExp/ModExp.v
+L0 6
+Z7 OV;L;10.1b;51
+r1
+31
+Z8 o-vlog01compat -work work -O0
+Z9 !s92 -vlog01compat -work work {+incdir+E:/ms project/!Clean Folder/ModExp} -O0
+Z10 n@mod@exp
+Z11 !s100 1GbDVb6_T6<>B4f<^K3:02
+Z12 !s108 1429643498.739000
+Z13 !s107 _parameter.v|E:/ms project/!Clean Folder/ModExp/ModExp.v|
+Z14 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ms project/!Clean Folder/ModExp|E:/ms project/!Clean Folder/ModExp/ModExp.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vModExp_tb
+!i10b 1
+Z15 !s100 >afcETj?i^iAYfg3=;CJn2
+Z16 IfJh1]6N9iF=RO2`>5Yd3G3
+Z17 V]<cc;ZiXclDcKe;D2iXC?2
+R3
+Z18 w1429599254
+Z19 8ModExp_tb.v
+Z20 FModExp_tb.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s108 1429648149.998000
+!s107 _parameter.v|ModExp_tb.v|
+Z21 !s90 -reportprogress|300|ModExp_tb.v|
+!s101 -O0
+o-O0
+Z22 n@mod@exp_tb
+vMonPro
+Z23 I7WEN_8E[4@jQbZ0CSMCXT3
+Z24 V0WTkQLb2LKA`Ugdk3J2FD3
+R3
+Z25 w1429475025
+Z26 8E:/ms project/!Clean Folder/ModExp/MonPro.v
+Z27 FE:/ms project/!Clean Folder/ModExp/MonPro.v
+L0 5
+R7
+r1
+31
+R8
+R9
+Z28 n@mon@pro
+Z29 !s100 1fe[i^O[P88VNjF0kZA7C0
+Z30 !s108 1429643498.532000
+Z31 !s107 _parameter.v|E:/ms project/!Clean Folder/ModExp/MonPro.v|
+Z32 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ms project/!Clean Folder/ModExp|E:/ms project/!Clean Folder/ModExp/MonPro.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMulAdd
+Z33 I8HlSMojA@1]OeDEl0FdU73
+Z34 V<E=]7IFbXfJkgMZo`8m`k1
+R3
+Z35 w1425041361
+Z36 8E:/ms project/!Clean Folder/ModExp/MulAdd.v
+Z37 FE:/ms project/!Clean Folder/ModExp/MulAdd.v
+L0 4
+R7
+r1
+31
+R8
+Z38 n@mul@add
+R9
+Z39 !s100 5oWgBbnh^?25RZ63Z5NXC0
+Z40 !s108 1429643498.348000
+Z41 !s107 _parameter.v|E:/ms project/!Clean Folder/ModExp/MulAdd.v|
+Z42 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ms project/!Clean Folder/ModExp|E:/ms project/!Clean Folder/ModExp/MulAdd.v|
+!i10b 1
+!s85 0
+!s101 -O0
