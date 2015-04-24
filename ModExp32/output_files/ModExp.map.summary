@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Apr 20 15:07:25 2015
+Quartus II 64-Bit Version : 12.1 Build 243 01/31/2013 SP 1 SJ Web Edition
+Revision Name : ModExp
+Top-level Entity Name : ModExp
+Family : Cyclone II
+Total logic elements : 47,848
+    Total combinational functions : 31,385
+    Dedicated logic registers : 21,149
+Total registers : 21149
+Total pins : 77
+Total virtual pins : 0
+Total memory bits : 4,096
+Embedded Multiplier 9-bit elements : 8
+Total PLLs : 0
