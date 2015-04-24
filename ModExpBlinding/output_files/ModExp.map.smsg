@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at MonPro.v(59): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at ModExp.v(53): always construct contains both blocking and non-blocking assignments

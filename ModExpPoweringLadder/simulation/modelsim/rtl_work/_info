@@ -1,0 +1,88 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\ms project\!Clean Folder\ModExpPoweringLadder\simulation\modelsim
+vModExp
+Z1 Ib=NGRbT<7[SI57iA:VIZ81
+Z2 V4>981oC?1TVdHoJ<YToQe3
+Z3 dE:\ms project\!Clean Folder\ModExpPoweringLadder\simulation\modelsim
+Z4 w1429725350
+Z5 8E:/ms project/!Clean Folder/ModExpPoweringLadder/ModExp.v
+Z6 FE:/ms project/!Clean Folder/ModExpPoweringLadder/ModExp.v
+L0 6
+Z7 OV;L;10.1b;51
+r1
+31
+Z8 o-vlog01compat -work work -O0
+Z9 !s92 -vlog01compat -work work {+incdir+E:/ms project/!Clean Folder/ModExpPoweringLadder} -O0
+Z10 n@mod@exp
+!i10b 1
+Z11 !s100 RiK<zHAk1`5R41JD162L;2
+!s85 0
+Z12 !s108 1429731640.485000
+Z13 !s107 _parameter.v|E:/ms project/!Clean Folder/ModExpPoweringLadder/ModExp.v|
+Z14 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ms project/!Clean Folder/ModExpPoweringLadder|E:/ms project/!Clean Folder/ModExpPoweringLadder/ModExp.v|
+!s101 -O0
+vModExp_tb
+!i10b 1
+!s100 h?dUZ8Jc_;3eMi;k:aAdY1
+IRW4CfjYI4<LYI?Vj<[RIc2
+V]<cc;ZiXclDcKe;D2iXC?2
+R3
+w1429731024
+8ModExp_tb.v
+FModExp_tb.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s108 1429731646.407000
+!s107 _parameter.v|ModExp_tb.v|
+!s90 -reportprogress|300|ModExp_tb.v|
+!s101 -O0
+o-O0
+n@mod@exp_tb
+vMonPro
+Z15 ITelMjZ[hfW]2VB60kj;he3
+Z16 V0WTkQLb2LKA`Ugdk3J2FD3
+R3
+Z17 w1429475025
+Z18 8E:/ms project/!Clean Folder/ModExpPoweringLadder/MonPro.v
+Z19 FE:/ms project/!Clean Folder/ModExpPoweringLadder/MonPro.v
+L0 5
+R7
+r1
+31
+R8
+R9
+Z20 n@mon@pro
+!i10b 1
+Z21 !s100 @3knBaX>zSNg[C6fHiDij0
+!s85 0
+Z22 !s108 1429731640.286000
+Z23 !s107 _parameter.v|E:/ms project/!Clean Folder/ModExpPoweringLadder/MonPro.v|
+Z24 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ms project/!Clean Folder/ModExpPoweringLadder|E:/ms project/!Clean Folder/ModExpPoweringLadder/MonPro.v|
+!s101 -O0
+vMulAdd
+Z25 Ij`:IKc_l4a?;4GHhhUEmJ1
+Z26 V<E=]7IFbXfJkgMZo`8m`k1
+R3
+Z27 w1425041361
+Z28 8E:/ms project/!Clean Folder/ModExpPoweringLadder/MulAdd.v
+Z29 FE:/ms project/!Clean Folder/ModExpPoweringLadder/MulAdd.v
+L0 4
+R7
+r1
+31
+R8
+Z30 n@mul@add
+R9
+!i10b 1
+Z31 !s100 Y:Mz1@2DgbZz4MXa0QUEH0
+!s85 0
+Z32 !s108 1429731640.161000
+Z33 !s107 _parameter.v|E:/ms project/!Clean Folder/ModExpPoweringLadder/MulAdd.v|
+Z34 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ms project/!Clean Folder/ModExpPoweringLadder|E:/ms project/!Clean Folder/ModExpPoweringLadder/MulAdd.v|
+!s101 -O0

@@ -1,0 +1,88 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\ms project\!Clean Folder\ModExpBlinding\simulation\modelsim
+vModExp
+Z1 I>SgSW@UoOAcN?Jd@9?Z8i3
+Z2 V4>981oC?1TVdHoJ<YToQe3
+Z3 dE:\ms project\!Clean Folder\ModExpBlinding\simulation\modelsim
+Z4 w1429662218
+Z5 8E:/ms project/!Clean Folder/ModExpBlinding/ModExp.v
+Z6 FE:/ms project/!Clean Folder/ModExpBlinding/ModExp.v
+L0 6
+Z7 OV;L;10.1b;51
+r1
+31
+Z8 o-vlog01compat -work work -O0
+Z9 !s92 -vlog01compat -work work {+incdir+E:/ms project/!Clean Folder/ModExpBlinding} -O0
+Z10 n@mod@exp
+!i10b 1
+Z11 !s100 lbCB@3N0o<BW7Xe`Y7UUR0
+!s85 0
+Z12 !s108 1429665130.672000
+Z13 !s107 _parameter.v|E:/ms project/!Clean Folder/ModExpBlinding/ModExp.v|
+Z14 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ms project/!Clean Folder/ModExpBlinding|E:/ms project/!Clean Folder/ModExpBlinding/ModExp.v|
+!s101 -O0
+vModExp_tb
+!i10b 1
+!s100 >afcETj?i^iAYfg3=;CJn2
+IfJh1]6N9iF=RO2`>5Yd3G3
+V]<cc;ZiXclDcKe;D2iXC?2
+R3
+w1429599254
+8ModExp_tb.v
+FModExp_tb.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s108 1429665282.389000
+!s107 _parameter.v|ModExp_tb.v|
+!s90 -reportprogress|300|ModExp_tb.v|
+!s101 -O0
+o-O0
+n@mod@exp_tb
+vMonPro
+Z15 IQ55=ZR200AKD;?jPz=0bE1
+Z16 V0WTkQLb2LKA`Ugdk3J2FD3
+R3
+Z17 w1429475025
+Z18 8E:/ms project/!Clean Folder/ModExpBlinding/MonPro.v
+Z19 FE:/ms project/!Clean Folder/ModExpBlinding/MonPro.v
+L0 5
+R7
+r1
+31
+R8
+R9
+Z20 n@mon@pro
+!i10b 1
+Z21 !s100 HGLF?4PNE`l7o=Fg=N9<C0
+!s85 0
+Z22 !s108 1429665130.488000
+Z23 !s107 _parameter.v|E:/ms project/!Clean Folder/ModExpBlinding/MonPro.v|
+Z24 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ms project/!Clean Folder/ModExpBlinding|E:/ms project/!Clean Folder/ModExpBlinding/MonPro.v|
+!s101 -O0
+vMulAdd
+Z25 I7NX3CPcNWLRcCb>[_`VJd3
+Z26 V<E=]7IFbXfJkgMZo`8m`k1
+R3
+Z27 w1425041361
+Z28 8E:/ms project/!Clean Folder/ModExpBlinding/MulAdd.v
+Z29 FE:/ms project/!Clean Folder/ModExpBlinding/MulAdd.v
+L0 4
+R7
+r1
+31
+R8
+Z30 n@mul@add
+R9
+!i10b 1
+Z31 !s100 1gNf?khYcg4Vzh61<G^a03
+!s85 0
+Z32 !s108 1429665130.352000
+Z33 !s107 _parameter.v|E:/ms project/!Clean Folder/ModExpBlinding/MulAdd.v|
+Z34 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ms project/!Clean Folder/ModExpBlinding|E:/ms project/!Clean Folder/ModExpBlinding/MulAdd.v|
+!s101 -O0
